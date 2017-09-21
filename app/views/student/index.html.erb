@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Students</h1>
+    <% @students.all.each do |student| %>
+      <p><%= student.name %></p>
+    <% end %>
+  </body>
+</html>
